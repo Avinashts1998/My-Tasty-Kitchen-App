@@ -1,0 +1,29 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.column-identify {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.cart-content-container {
+  width: 80vw;
+  height: 60vh;
+  left: 165px;
+  top: 144px;
+
+  background: #f9fbfe;
+  /* Main/Hover Light */
+
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  box-sizing: border-box;
+  align-self: center;
+  padding: 20px;
+  overflow-y: auto;
+}

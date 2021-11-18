@@ -1,0 +1,47 @@
+.background-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background: #0f172a;
+  padding: 20px;
+}
+
+.display-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-nme {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.logo-img {
+  height: 38.86237335205078px;
+  width: 48.73129653930664px;
+  color: #ffffff;
+  align-self: center;
+}
+
+.footer-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.social-icon-style {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}

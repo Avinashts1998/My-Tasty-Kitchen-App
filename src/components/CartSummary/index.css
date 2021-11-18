@@ -1,0 +1,48 @@
+.order-total-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-total-value {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* Basic / 900 */
+
+  color: #3e4c59;
+}
+
+.payment-done {
+  height: 376px;
+  width: 546px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  padding: 8px 16px;
+
+  background: #f7931e;
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border-style: none;
+  color: #ffffff;
+}

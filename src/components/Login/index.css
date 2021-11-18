@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.website-login {
+  height: 100vh;
+  width: 50%;
+}
+
+.login-background {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 360px) {
+  .login-background {
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+    background: #ffffff;
+  }
+
+  .website-login {
+    position: absolute;
+    width: 387px;
+    height: 387px;
+    left: 56px;
+    top: -38px;
+    border-radius: 249.938px;
+  }
+}
+
+.login-part {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .login-part {
+    order: 1;
+    padding-left: 30px;
+  }
+}
+
+.login-form {
+  width: 456px;
+  height: 523px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0px 8px 40px 0px #07070714;
+}
+
+@media screen and (max-width: 360px) {
+  .login-form {
+    box-shadow: none;
+    margin-top: 296px;
+    height: 40vh;
+    width: 40vw;
+  }
+
+  .set-logo {
+    display: none;
+  }
+}
+
+.logo-image {
+  height: 38.86237335205078px;
+  width: 48.73129653930664px;
+  left: 2.00048828125px;
+  top: 2px;
+  border-radius: 0px;
+  margin-left: 60px;
+}
+
+.login {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.name {
+  font-size: 12px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 360px) {
+  .login {
+    font-size: 24px;
+    align-self: flex-start;
+  }
+}
+
+.logo-name {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f7931e;
+}
+
+.input-sizer {
+  width: 360px;
+  height: 40px;
+  background-color: #e2e8f0;
+  border-style: none;
+}
+
+@media screen and (max-width: 360px) {
+  .input-sizer {
+    width: 312px;
+  }
+
+  .input-container {
+    width: 180px;
+  }
+}
+
+.button-style {
+  width: 360px;
+  height: 40px;
+  background-color: #f7931e;
+  color: white;
+  font-family: 'DM Sans';
+  margin-top: 24px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+@media screen and (max-width: 360px) {
+  .button-style {
+    width: 312px;
+    align-self: center;
+    margin-left: 32px;
+  }
+}
+
+.error-text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ef4444;
+}

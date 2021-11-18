@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.list-order {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.products-error-view-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-failure-text {
+  color: #f7931e;
+  font-size: 30px;
+}
+
+.products-loader-container {
+  align-self: center;
+}
+
+.carousel-image {
+  width: 93vw;
+  height: 40vh;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.popular-restaurants {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+
+  color: #183b56;
+}
+
+.restaurants-tag {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}
+
+.sort-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.select-tag {
+  border-style: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+.tag {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.sort-icon {
+  color: #475569;
+}
+
+.set-introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 577px) {
+  .set-introduction {
+    flex-direction: column;
+  }
+}
+
+.list-order {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 577px) {
+  .list-order {
+    flex-direction: column;
+    margin-bottom: 28px;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  margin-left: 45vw;
+}
+
+@media screen and (max-width: 577px) {
+  .pagination {
+    align-self: center;
+    margin-left: 40%;
+  }
+}
+
+.style-paging {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #334155;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination-button {
+  background-color: transparent;
+  border-color: #183b56;
+  border-style: solid;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+.payment-page-bg {
+  height: 376px;
+  width: 546px;
+  left: 447px;
+  top: 324px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 4.00734px 40.0734px rgba(23, 31, 70, 0.16);
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 33%;
+  margin-top: 30px;
+}
+
+.payment-status {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+
+.description-payment {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+.home-page-redirecting {
+  height: 32px;
+  width: 131px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: #f7931e;
+  color: white;
+  align-self: center;
+}
